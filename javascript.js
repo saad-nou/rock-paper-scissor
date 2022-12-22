@@ -38,21 +38,16 @@ function playRound(playerSelection,computerSelection){
 //console.log(playRound(userChoice, computerChoice));
 
 const mainDiv = document.createElement('div');
-
 mainDiv.setAttribute('style','display:flex;min-height:500px; background: #2830103E; margin:auto; max-width:70%;');
 const body = document.querySelector('body');
 body.appendChild(mainDiv);
 
 const Rock = document.createElement('button');
-
 Rock.setAttribute('style','color: #83290F; width: 100px; height:auto; margin:auto;');
-
 Rock.textContent = 'ROCK';
-
 mainDiv.appendChild(Rock);
 
 const Paper = document.createElement('button');
-
 Paper.setAttribute('style','margin: auto;width: 100px; color: #a39483; background: #5913791D;');
 Paper.textContent = 'PAPER';
 mainDiv.appendChild(Paper);
